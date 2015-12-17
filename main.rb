@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "sinatra"
 
 get '/' do
@@ -15,3 +16,6 @@ end
 get '/cart' do
   erb :cart
 end
+=======
+require "sinatra"
+>>>>>>> c69f14de978ac1d64ec96ebff047d18fe9df8699
