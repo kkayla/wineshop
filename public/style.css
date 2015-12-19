@@ -1,1 +1,54 @@
-style.css
+/*default styling for the whole shabang*/
+html,body,div,span,obj,iframe,h1,h2,h3,h4,h5,h6,img,var,ul,li,form,label,table,article,footer,header,menu,nav,ruby{
+  font-family:sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  display: block;
+}
+/*this is what's holding my nav bar and my logo at the top*/
+.main_header {
+  width: 948px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 175px;
+  text-align: right;
+  position: relative;
+}
+/*###top navigation styles*/
+.main_header .top_nav{  position:relative; font-size: 12px; min-height: 22px;}
+.main_header .top_nav .ul {
+  background-color
+}
+body {
+background-image: url("grape_lady.jpg");
+background-size:contain;
+background-repeat: none;
+}
+
+.formLayout{
+  background-color: #f3f3f3;
+  border: solid 1px #a1a1a1;
+}
+
+p {
+  color: white;
+}
+h1 {
+  color: #white;
+  background-color: gray;
+  font-size: 72px;
+  text-align: center;
+}
+/*
+h2{
+  color: #white;
+  font-size: 20px;
+}
+h4{
+  color: #966FD6;
+}*/
