@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>KaylEd's Wines</title>
-  <link rel="stylesheet" type= "text/css" href= "<%= url("style.css")%>">
+  <link rel="stylesheet" type= "text/css" href= "style.css">
 </head>
 <body>
   <!-- #the main header is keeping the concise positioning of our nav bar at the very top and our logo button at the top -->
@@ -11,18 +11,22 @@
   <!-- #beginning of navigation bar -->
   <nav class= "top_nav">
     <ul>
-      <label for = "home">home</label>
-        <a href= "<%= url("home.erb")%>">
-      <label for = "home">home</label>
-        <a href= "<%= url("home.erb")%>">
+      <li>
+        <a href= "/about">
+          home
+        </a>
+      </li>
+      <!-- <a href="<%= url("browse.erb")%>">
+
       <label for = "browse">browse</label>
-        <a href="<%= url("browse.erb")%>">
+</a>
       <label for = "about">about</label>
         <a href="<%= url("about.erb")%>">
       <label for = "cart">cart</label>
         <a href="<%= url("cart.erb")%>">
       <label for = "store_locations">locations</label>
         <a href="<%= url("locations.erb")%>">
+        </a> -->
       </ul>
   </nav>
   <!-- #end of top navigation bar -->
@@ -31,7 +35,8 @@
   <%= yield %>
   <!-- ########CONTENT OF PAGES GOES HERE BECAUSE OF YEILD ON LINE 31############# -->
 <!-- #beginning of bottom navigation bar -->
-<nav class="bottom_nav">
+<!-- #beginning of responsible footer -->
+<footer>
   <ul>
     <label for="press">press</label>
       <a href="<%=url("about.erb")%>">
@@ -40,9 +45,7 @@
       <button>add me!</button>
     <li>sldkfmslkfd</li>
   </ul>
-</nav>
-<!-- #beginning of responsible footer -->
-<footer> a legendary wine experience . always drink responsibly</footer>
+</footer>
 <!-- end of responsbile footer -->
 </body>
 </html>

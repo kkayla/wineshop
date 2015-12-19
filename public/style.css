@@ -20,10 +20,9 @@ html,body,div,span,obj,iframe,h1,h2,h3,h4,h5,h6,img,var,ul,li,form,label,table,a
   position: relative;
 }
 /*###top navigation styles*/
-.main_header .top_nav{
-  position:relative;
-  font-size: 12px;
-  min-height: 22px;
+.main_header .top_nav{  position:relative; font-size: 12px; min-height: 22px;}
+.main_header .top_nav .ul {
+  background-color
 }
 body {
 background-image: url("grape_lady.jpg");
